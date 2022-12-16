@@ -108,5 +108,5 @@ for i in hisseler:
         veri3[baslık[1:]]=veri3[baslık[1:]].astype(float)
         veri3.fillna(0,inplace=True)
 
-        veri3.to_excel("C:/Users/Analist/Desktop/bilançolar/{}.xlsx".format(hisse),index=False)
+        veri3.to_excel("/home/ilerinaci{}.xlsx".format(hisse),index=False)
         
